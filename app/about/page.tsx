@@ -1,3 +1,5 @@
+ 
+
 import type { Metadata } from 'next'
 import { Navigation } from "@/components/navigation"
 
@@ -17,7 +19,7 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { ArrowRight, Heart, Home, Sparkles } from "lucide-react"
 
-"use client"
+
 
 export default function AboutPage() {
   return (
