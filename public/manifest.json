@@ -1,0 +1,16 @@
+{
+  "name": "ClayHouse Pottery",
+  "short_name": "ClayHouse",
+  "description": "Handcrafted pottery pieces made with love by Anika Joy in ClayHouse Studios",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F2E8",
+  "theme_color": "#D4A574",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

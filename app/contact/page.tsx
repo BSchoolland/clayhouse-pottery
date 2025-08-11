@@ -1,3 +1,16 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Contact Us',
+  description: 'Get in touch with ClayHouse Pottery. Visit us at Market Faire, contact Anika for custom orders, or schedule a studio visit. Located in Ripon, CA.',
+  keywords: ['contact ClayHouse Pottery', 'pottery studio visit', 'custom pottery orders', 'Market Faire', 'Ripon CA pottery'],
+  openGraph: {
+    title: 'Contact Us | ClayHouse Pottery',
+    description: 'Get in touch with ClayHouse Pottery. Visit us at Market Faire or contact Anika for custom orders.',
+    images: ['/images/anika-at-pottery-wheel.jpg'],
+  },
+}
+
 "use client"
 
 import { Navigation } from "@/components/navigation"

@@ -58,8 +58,41 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#D4A574" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "ClayHouse Pottery",
+              "description": "Handcrafted pottery pieces made with love by Anika Joy in ClayHouse Studios",
+              "url": "https://clayhousepottery.com",
+              "telephone": "(209) 573-0373",
+              "email": "aschoolland@gmail.com",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "21420 S Olive Ave",
+                "addressLocality": "Ripon",
+                "addressRegion": "CA",
+                "addressCountry": "US"
+              },
+              "founder": {
+                "@type": "Person",
+                "name": "Anika Schoolland",
+                "jobTitle": "Potter and Artist"
+              },
+              "sameAs": [
+                "https://clayhousepotteryjoy.etsy.com"
+              ],
+              "priceRange": "$$$",
+              "paymentAccepted": "Cash, Check",
+              "currenciesAccepted": "USD"
+            })
+          }}
+        />
         <style>{`
 html {
   font-family: ${GeistSans.style.fontFamily};

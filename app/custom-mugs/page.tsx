@@ -1,3 +1,16 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Custom Stamped Mugs',
+  description: 'Custom handcrafted pottery mugs with your business logo or personal message. Perfect for employee gifts, customer appreciation, or special occasions. Minimum order of 6 mugs.',
+  keywords: ['custom pottery mugs', 'business logo mugs', 'personalized ceramic mugs', 'stamped pottery', 'corporate gifts', 'custom ceramic gifts'],
+  openGraph: {
+    title: 'Custom Stamped Mugs | ClayHouse Pottery',
+    description: 'Custom handcrafted pottery mugs with your business logo or personal message. Perfect for gifts and corporate branding.',
+    images: ['/images/custom-logo-mug.jpg'],
+  },
+}
+
 "use client"
 
 import { Navigation } from "@/components/navigation"
